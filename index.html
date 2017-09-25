@@ -8,6 +8,37 @@
     <title></title>
   </head>
   <body>
+    <div class="well">
+      <h1>All around me are familiar places...</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <form id="places-form">
+              <div class="form-group">
+                <label for="place-name">Enter the location:</label>
+                <input type="text" id="place-name" required>
+              </div>
+              <div class="form-group">
+                <label for="place-date">Enter the date of trip:</label>
+                <input type="text" id="place-date" required>
+              </div>
+              <button class="btn btn-success" type="submit">Submit</button>
+            </form>
+
+            <h2>Places:</h2>
+            <ul id="places">
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div id="show-place">
+              <h2></h2>
+
+              <p>Location: <span class="place-name"></span></p>
+              <p>Date of Trip: <span class="place-date"></span></p>
+          </div>
+        </div>
+    </div>
 
   </body>
 </html>
