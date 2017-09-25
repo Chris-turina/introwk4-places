@@ -18,6 +18,7 @@ $(document).ready(function() {
     $(".place").last().click(function() {
       $("#show-place").show();
       $("#show-place h2").text(newPlace.placeName);
+      $(".place-name").text(newPlace.placeName);
       $(".place-date").text(newPlace.placeDate);
     });
 
